@@ -213,6 +213,13 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 30px;
 	color: #2F4858;
 }
+.button-sub-title {
+	font-family: "Oswald", sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	color: #2F4858;
+	flex: 1;
+}
 .footer-title {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
@@ -251,6 +258,14 @@ hr {
     height: 60px;
     background-color: #FFCB66;
 	margin-top: -50px;
+}
+.w3-button-row {
+	display: flex;
+	flex-wrap: wrap;
+}
+.w3-button-one {
+	display: flex;
+	flex-direction: column;
 }
 img {
   vertical-align: middle;
